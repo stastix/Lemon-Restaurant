@@ -1,0 +1,96 @@
+.menu-preview {
+  background: white;
+}
+
+.menu-grid {
+  margin-bottom: 3rem;
+}
+
+.menu-item {
+  overflow: hidden;
+}
+
+.menu-image {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.menu-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover .menu-image img {
+  transform: scale(1.05);
+}
+
+.menu-category {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: #f59e0b;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.menu-content {
+  padding: 1.5rem;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.menu-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  flex: 1;
+}
+
+.menu-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f59e0b;
+  white-space: nowrap;
+}
+
+.menu-description {
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+.menu-cta {
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .menu-content {
+    padding: 1rem;
+  }
+
+  .menu-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .menu-name {
+    font-size: 1.1rem;
+  }
+
+  .menu-price {
+    font-size: 1.25rem;
+  }
+}
