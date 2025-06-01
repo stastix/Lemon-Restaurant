@@ -1,5 +1,12 @@
-import { MapPin, Phone, Mail, Facebook, Instagram, Twitter } from "lucide-react"
-import Link from "next/link"
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Facebook,
+  Instagram,
+  Twitter,
+} from "lucide-react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -15,17 +22,27 @@ export default function Footer() {
               <span className="text-2xl font-bold">Lemon</span>
             </div>
             <p className="text-gray-300 mb-4">
-              Authentic Mediterranean cuisine with fresh ingredients and traditional recipes, bringing the flavors of
-              the Mediterranean to your table.
+              Authentic Mediterranean cuisine with fresh ingredients and
+              traditional recipes, bringing the flavors of the Mediterranean to
+              your table.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-300 hover:text-yellow-400 transition-colors">
+              <Link
+                href="#"
+                className="text-gray-300 hover:text-yellow-400 transition-colors"
+              >
                 <Facebook className="w-5 h-5" />
               </Link>
-              <Link href="#" className="text-gray-300 hover:text-yellow-400 transition-colors">
+              <Link
+                href="#"
+                className="text-gray-300 hover:text-yellow-400 transition-colors"
+              >
                 <Instagram className="w-5 h-5" />
               </Link>
-              <Link href="#" className="text-gray-300 hover:text-yellow-400 transition-colors">
+              <Link
+                href="#"
+                className="text-gray-300 hover:text-yellow-400 transition-colors"
+              >
                 <Twitter className="w-5 h-5" />
               </Link>
             </div>
@@ -36,27 +53,35 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                <Link
+                  href="/"
+                  className="text-gray-300 hover:text-yellow-400 transition-colors"
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/menu" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                <Link
+                  href="/menu"
+                  className="text-gray-300 hover:text-yellow-400 transition-colors"
+                >
                   Menu
                 </Link>
               </li>
+
               <li>
-                <Link href="/about" className="text-gray-300 hover:text-yellow-400 transition-colors">
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                <Link
+                  href="/contact"
+                  className="text-gray-300 hover:text-yellow-400 transition-colors"
+                >
                   Contact
                 </Link>
               </li>
               <li>
-                <Link href="/reservations" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                <Link
+                  href="/reservations"
+                  className="text-gray-300 hover:text-yellow-400 transition-colors"
+                >
                   Reservations
                 </Link>
               </li>
@@ -109,16 +134,22 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-300">
             © 2024 Lemon Restaurant. All rights reserved. |
-            <Link href="/privacy" className="hover:text-yellow-400 transition-colors ml-1">
+            <Link
+              href="/privacy"
+              className="hover:text-yellow-400 transition-colors ml-1"
+            >
               Privacy Policy
             </Link>{" "}
             |
-            <Link href="/terms" className="hover:text-yellow-400 transition-colors ml-1">
+            <Link
+              href="/terms"
+              className="hover:text-yellow-400 transition-colors ml-1"
+            >
               Terms of Service
             </Link>
           </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }
