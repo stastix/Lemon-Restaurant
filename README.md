@@ -14,9 +14,9 @@ This repository contains the frontend code for Lemon Restaurant, built to demons
 
 ## Tech Stack
 
-- **Frontend:** React
+- **Frontend:** Next.js 15 (SSR)
 - **Styling:** Tailwind CSS, Lucide React
-- **Deployment:** Not yet hosted
+- **Deployment:** Vercel
 
 ---
 
