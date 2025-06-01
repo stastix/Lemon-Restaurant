@@ -1,9 +1,10 @@
 # Lemon Restaurant
+
 Welcome to the Lemon Restaurant project!
 This is a basic frontend application designed to showcase my skills to recruiters. The project demonstrates a modern restaurant website UI, with plans to expand into a full-stack experience soon.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/achrafs-projects-7bc43d08/v0-lemon-restaurant)
----
+## [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://lemon-restaurant-n8ze-git-main-achrafs-projects-7bc43d08.vercel.app)
+
 ## Overview
 
 This repository contains the frontend code for Lemon Restaurant, built to demonstrate UI/UX skills and modern web development practices.  
@@ -22,21 +23,23 @@ This repository contains the frontend code for Lemon Restaurant, built to demons
 ## Getting Started
 
 1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/lemon-restaurant.git
-    cd lemon-restaurant
-    ```
+
+   ```bash
+   git clone https://github.com/your-username/lemon-restaurant.git
+   cd lemon-restaurant
+   ```
 
 2. **Install dependencies:**
-    ```bash
-    npm install
-    ```
+
+   ```bash
+   npm install
+   ```
 
 3. **Start the development server:**
-    ```bash
-    npm run dev
-    ```
-    The app should now be running at [http://localhost:3000](http://localhost:3000).
+   ```bash
+   npm run dev
+   ```
+   The app should now be running at [http://localhost:3000](http://localhost:3000).
 
 ---
 
@@ -51,13 +54,13 @@ This repository contains the frontend code for Lemon Restaurant, built to demons
 
 ## Contributing
 
-This project is currently not open for contributions as it is a personal showcase.  
+This project is currently not open for contributions as it is a personal showcase.
 Feel free to fork and experiment!
 
 ---
 
 ## License
 
-This project is for demonstration purposes only.
+This project is for demonstration purposes only. Use it however you want
 
 ---
