@@ -1,30 +1,63 @@
-# lemonRestaurant
-
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+# Lemon Restaurant
+Welcome to the Lemon Restaurant project!
+This is a basic frontend application designed to showcase my skills to recruiters. The project demonstrates a modern restaurant website UI, with plans to expand into a full-stack experience soon.
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/achrafs-projects-7bc43d08/v0-lemon-restaurant)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/iV3cXqDtmSR)
-
+---
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+This repository contains the frontend code for Lemon Restaurant, built to demonstrate UI/UX skills and modern web development practices.  
+**Note:** This is a static frontend only. Backend features (such as a robust booking system and database integration) are planned for the future using Go.
 
-## Deployment
+---
 
-Your project is live at:
+## Tech Stack
 
-**[https://vercel.com/achrafs-projects-7bc43d08/v0-lemon-restaurant](https://vercel.com/achrafs-projects-7bc43d08/v0-lemon-restaurant)**
+- **Frontend:** React
+- **Styling:** Tailwind CSS, Lucide React
+- **Deployment:** Not yet hosted
 
-## Build your app
+---
 
-Continue building your app on:
+## Getting Started
 
-**[https://v0.dev/chat/projects/iV3cXqDtmSR](https://v0.dev/chat/projects/iV3cXqDtmSR)**
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/lemon-restaurant.git
+    cd lemon-restaurant
+    ```
 
-## How It Works
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+3. **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+    The app should now be running at [http://localhost:3000](http://localhost:3000).
+
+---
+
+## Roadmap
+
+- [x] Frontend showcase for recruiters
+- [ ] Backend API with Go
+- [ ] Database integration for bookings
+- [ ] Improved booking system and user experience
+
+---
+
+## Contributing
+
+This project is currently not open for contributions as it is a personal showcase.  
+Feel free to fork and experiment!
+
+---
+
+## License
+
+This project is for demonstration purposes only.
+
+---
